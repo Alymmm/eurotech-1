@@ -336,7 +336,7 @@ const Ideas = () => {
 	return (
 		<Box
 			py="20"
-			backgroundImage="/slider1.jpg"
+			backgroundImage="/main.jpg"
 			backgroundPosition="center"
 			backgroundRepeat="no-repeat"
 			backgroundSize="cover"
