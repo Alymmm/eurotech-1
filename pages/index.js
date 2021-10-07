@@ -110,19 +110,19 @@ const services = [
 		title: "Pavers",
 		desc:
 			"Frank Lombardi has been installing pavers for a lifetime. 30 years of experience make us the best Paver installer in New Jersey!",
-		photo: "/slider1.jpg",
+		photo: "/news1.png",
 	},
 	{
 		title: "Lanscaping",
 		desc:
 			"Frank Lombardi has been installing pavers for a lifetime. 30 years of experience make us the best Paver installer in New Jersey!",
-		photo: "/slider2.jpg",
+		photo: "/news2.png",
 	},
 	{
 		title: "Concrete",
 		desc:
 			"Frank Lombardi has been installing pavers for a lifetime. 30 years of experience make us the best Paver installer in New Jersey!",
-		photo: "/slider3.jpg",
+		photo: "/news3.jpg",
 	},
 ];
 
@@ -264,19 +264,19 @@ const About = () => {
 
 const news = [
 	{
-		photo: "/slider1.jpg",
+		photo: "/sec1.png",
 		title: "Cutting-Edge Construction with Old-World Style",
 		desc:
 			"It’s not surprising that long-time New Jersey resident, Frank Lombardi, pays attention to old-world details and craftsmanship. He was born and raised in Moiano, Italy, and developed an...",
 	},
 	{
-		photo: "/slider2.jpg",
+		photo: "/sec2.jpg",
 		title: "Lombardi’s reputation",
 		desc:
 			"Within a few years, Lombardi’s reputation had become so well known in the contracting community that some of the most visible and sought-after projects in the area were awarded to his now family...",
 	},
 	{
-		photo: "/slider3.jpg",
+		photo: "/sec3.jpg",
 		title: "Our design and Our workmanship",
 		desc:
 			"Like those old-world craftsmen, we take pride in everything we do. It’s in our products, our design and our workmanship. We bring true artisan style to the work while using state-of-the-art...",
@@ -415,7 +415,7 @@ export default function Home() {
 				<Ideas />
 				<News />
 				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6426.634716995149!2d-73.64645483233754!3d40.82829860482112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c285fc696789f3%3A0x99d5327787464f6b!2s133%20Glenwood%20Rd%2C%20Glenwood%20Landing%2C%20NY%2011547%2C%20USA!5e0!3m2!1sen!2skg!4v1632828517438!5m2!1sen!2skg"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.1287952359316!2d-73.99230798451427!3d40.89098957931288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f0dc3be6f839%3A0x75252bd505aafcea!2s260%20Lafayette%20Pl%2C%20Englewood%2C%20NJ%2007631%2C%20USA!5e0!3m2!1sen!2skg!4v1633616108404!5m2!1sen!2skg"
 					width="100%"
 					height="400"
 					style={{

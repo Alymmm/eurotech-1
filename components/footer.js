@@ -40,7 +40,10 @@ const Footer = () => {
 								<Logo />
 							</a>
 						</NextLink>
-						<Text>Italian Outdoor Living Group We build luxury</Text>
+						<Text>
+							Within a few years, Lombardi’s reputation had become so
+							well known in the contracting community.
+						</Text>
 					</Stack>
 
 					<Box>

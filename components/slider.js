@@ -15,23 +15,16 @@ import { MotionBox, MotionHeading } from "./motion";
 const BannerSlider = () => {
 	const slides = [
 		{
-			img: "/slider1.jpg",
-			title: "Welcome to Italia Outdoor Living",
-			subtitle:
-				"For over 2 decades, Italia Outdoor Living has been Long Island's leading provider of concrete pool construction and custom outdoor landscaping for nearly 20 years, and with good reasons.",
+			img: "/main.jpg",
+			title: "Family Owned Construction Company",
 		},
 		{
-			img: "/slider2.jpg",
-			title: "Trust your landscape to Professionals",
-			subtitle:
-				"We are experts in marble, travertine patios, walkaways, lighting, landscaping, pergolas, outdoor pavilions, and pool houses.",
+			img: "/main2.jpg",
+			title: "Providing quality work at a fair price",
 		},
-
 		{
-			img: "/slider3.jpg",
+			img: "/main3.jpg",
 			title: "We Build Luxury",
-			subtitle:
-				"A beautiful backyard gives your property another dimension, another level of extravagance that serves as a perfect place to relax or entertain family, friends, and guests, if you want a pool for your property, there really is only one place to call, Italia Outdoor Living.",
 		},
 	];
 
@@ -72,7 +65,7 @@ const BannerSlider = () => {
 						position: "absolute",
 						width: "100%",
 						height: "100%",
-						bg: "rgba(0, 0, 0, 0.6)",
+						bg: "rgba(0, 0, 0, 0.5)",
 					}}
 					initial={{
 						opacity: 0,
@@ -128,7 +121,7 @@ const BannerSlider = () => {
 									key={title + page}
 									color="white"
 									textTransform="uppercase"
-									fontSize={["3xl", null, "4xl"]}
+									fontSize={["2xl", null, "3xl"]}
 									textAlign="center"
 									transition={{
 										duration: 0.3,
